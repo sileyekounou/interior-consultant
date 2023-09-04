@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&display=swap" rel="stylesheet">
+    <title>Vite App</title>
+  </head>
+  <body bgcolor="#181719" text="white" class="">
+    <div class="max-w-7xl mx-auto h-screen sm:py-[30px] sm:px-[70px] ">
+      <header class="w-full h-[100px]">
+        <nav class="flex items-center justify-between w-full box-border absolute sm:relative lg:pr-[20px] opacity-0 translate-y-[-30px]">          
+            <div class="font-lora text-[14px] font-thin border w-[133px] h-[43px] flex justify-center items-center sm:relative absolute sm:top-0 sm:left-0 top-[30px] left-4" id="titre">
+              THIS INTERIOR
+            </div>            
+            <div class="sm:w-[400px] bg-[#181719] sm:h-auto transition-all duration-500 ease-linear w-full h-screen flex justify-center ml-[-100%]" id="nav-links">
+              <ul class="font-montserrat flex items-center sm:w-full sm:justify-between sm:flex-row flex-col justify-center sm:text-[18px]">
+                <li class="mb-4 sm:mb-0"><a href="#" class="hover:border-b-2 hover:font-bold active:border-b-2 active:font-bold">Home</a></li>
+                <li class="mb-4 sm:mb-0"><a href="#" class="hover:border-b-2 hover:font-bold active:border-b-2 active:font-bold">Collection</a></li>
+                <li class="mb-4 sm:mb-0"><a href="#" class="hover:border-b-2 hover:font-bold active:border-b-2 active:font-bold">About</a></li>
+                <li class="mb-4 sm:mb-0"><a href="#" class="hover:border-b-2 hover:font-bold active:border-b-2 active:font-bold">Contact</a></li>
+              </ul> 
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[40px] h-[40px] sm:hidden inline-block absolute top-[27px] right-4 menu">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" id="svg"/>
+            </svg>
+        </nav>
+      </header>
+      <main class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 lg:mt-10 pb-4" id="main">
+        <aside class="px-4 md:pt-14 aside-left translate-x-[30px]">
+          <h2 class="font-lora font-medium text-[36px] lg:text-[48px] mb-[25px]">Modern interior</h2>
+          <p class="font-montserrat text-[14px] lg:text-[24px]">A full-Service residential & <br> commercial interior design and <br> staging company offering <br> professional organizing & <br> eco-services.</p>
+          <div class="mt-[25px]"><a href="" class="font-bold text-[14px] sm:text-[18px]">Read more →</a></div>
+        </aside>
+        <aside class="flex justify-center items-center mx-4 bg-decor bg-cover bg-center bg-no-repeat h-[351px] lg:h-auto aside-right translate-y-[40px]">
+          <div class="px-4">            
+          </div>          
+          <div class="grid grid-rows-2 gap-y-4 absolute w-[260px] h-[128px] pl-[31px] bg-[#181719] lg:mt-[380px] lg:ml-[220px] mt-[380px] ml-[2px] shadow-sm">
+            <div class="flex items-center mt-[13.17px]">
+              <div class="w-[50px] h-[50px]">
+                <img src="./img/photo2.png" alt="" class="rounded-full">
+              </div>
+              <div class="w-[122px] h-[40px] ml-[20px] flex flex-col justify-center">
+                <p class="font-montserrat text-[12px] text-white">Aliza Webber</p>
+                <p class="font-montserrat text-[10px]  text-[#818181]">Interior designer</p>
+              </div> 
+            </div>           
+            <div class="pb-10">
+              <p class="text-[16px] font-lora font-bold ">Designed in 2020 by<br> Aliza Webber</p>
+            </div>
+          </div>
+        </aside>
+      </main>
+      <footer class="mt-52 pb-4" id="footer">
+        <div class="">
+          <p class="font-montserrat font-thin text-center">Made by <span>sileyekounou</span></p>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
